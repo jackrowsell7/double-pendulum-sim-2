@@ -321,20 +321,17 @@ class SettingsScene(Scene):
     def _change_theme(self, theme_name):
         """
         Change application theme
-        
+
         Args:
             theme_name: Name of the theme to apply (light/dark)
         """
         # Store in modified settings
         self.modified_settings["theme"] = theme_name
-        
+
         # Apply theme colors to preview
         self.theme_colors = self.config_manager.apply_theme(theme_name)
         self.background_color = self.theme_colors["background"]
-        
-        # Update UI theme if needed
-        self.ui_manager.get_theme().load_theme({})  # Reload default theme
-        
+
     def _change_resolution(self, resolution_text):
         """
         Change screen resolution
