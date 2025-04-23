@@ -1,0 +1,24 @@
+{
+    "theme": "light",
+    "screen_width": 1600,
+    "screen_height": 900,
+    "fps": 120,
+    "show_grid": true,
+    "simulation.gravity": 9.81,
+    "simulation.default_length1": 120,
+    "simulation.default_length2": 120,
+    "simulation.default_mass1": 17,
+    "simulation.default_mass2": 14,
+    "simulation.default_angle1": 0.8,
+    "simulation.default_angle2": 0.5,
+    "simulation.default_velocity1": 0,
+    "simulation.default_velocity2": 0,
+    "simulation.default_path_color": [
+        0,
+        128,
+        255
+    ],
+    "simulation.default_path_duration": 2.0,
+    "simulation.default_show_wire": false,
+    "simulation.speed": 12.0
+}
